@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.TESTE_ETL"
+  DTS:DTSID="{C5CE9DA4-B249-4AE8-B0EA-24551FF1D76C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=TESTE_ETL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-clientes_banco-{C5CE9DA4-B249-4AE8-B0EA-24551FF1D76C}localhost.TESTE_ETL;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

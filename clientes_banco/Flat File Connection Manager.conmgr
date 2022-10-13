@@ -1,0 +1,229 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{74CB3517-1476-4397-A6D5-BA614FDF87C7}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1033"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="C:\Users\victo\OneDrive\Documentos\Datasets\FIFA World Cup 2022\international_matches.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="date"
+          DTS:DTSID="{CB08CF81-DA62-47B3-B272-71BD7E943B0A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team"
+          DTS:DTSID="{BEF77A14-461F-459A-83A1-D634BA300548}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="19"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team"
+          DTS:DTSID="{144E73F8-0B40-456A-B154-DD55E6025335}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="13"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_continent"
+          DTS:DTSID="{98A39EC2-C6D9-4D6B-9D2C-C1AD560B5668}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="13"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team_continent"
+          DTS:DTSID="{ADFDE1BC-0A6E-41E8-AC31-19CD5D4EF170}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_fifa_rank"
+          DTS:DTSID="{22692E3C-C6E9-420B-BEB9-8706A1149882}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team_fifa_rank"
+          DTS:DTSID="{13AB08A4-1151-4289-BD46-8F7AFFC5EFF3}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="16"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_total_fifa_points"
+          DTS:DTSID="{FFDF5988-9B13-423A-961D-0050FC4B8212}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="16"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team_total_fifa_points"
+          DTS:DTSID="{700ED8BA-8556-48FF-894E-489BE5FC181B}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="16"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_score"
+          DTS:DTSID="{0FF4E633-51A1-420F-8189-8646A1C53576}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="16"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team_score"
+          DTS:DTSID="{92035470-DDD4-4C10-9BFD-EFB0CD29150C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="36"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="tournament"
+          DTS:DTSID="{B183715E-5B60-4452-BDF1-61F15AFE04BD}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="14"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="city"
+          DTS:DTSID="{8898BE64-A8F9-4844-A586-11FA07EFFA50}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="country"
+          DTS:DTSID="{1A980FEB-2030-4DB1-B302-81EF3A1D9797}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="neutral_location"
+          DTS:DTSID="{EFBA892E-A0F3-4454-9EA5-40BA3BE4150A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="3"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="shoot_out"
+          DTS:DTSID="{2EEACFC1-BC95-4804-BB0E-C57E674A4070}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="4"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_result"
+          DTS:DTSID="{19E9E7D3-FA1A-4A5B-8E96-BCD2B351A29A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_goalkeeper_score"
+          DTS:DTSID="{62563488-DB82-443B-A430-02A835B78B2D}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team_goalkeeper_score"
+          DTS:DTSID="{15F97733-7FD4-4089-890F-369F361B39C3}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_mean_defense_score"
+          DTS:DTSID="{24B3B249-3D69-4F5B-930E-ED56BB06D243}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_mean_offense_score"
+          DTS:DTSID="{563E47BB-3E0B-4528-AA7F-09858725A6F6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="home_team_mean_midfield_score"
+          DTS:DTSID="{B77F2B29-F7AF-4B1D-A84D-5A480BCAA1E6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team_mean_defense_score"
+          DTS:DTSID="{DF9E17A1-3ACB-49B8-B75F-A1A838765978}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team_mean_offense_score"
+          DTS:DTSID="{D5CC9661-C1FF-4BFA-884D-CD52BE2C5CE7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="away_team_mean_midfield_score"
+          DTS:DTSID="{93F67C8F-D19C-4381-B8AA-BCEBBE43D2B2}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
